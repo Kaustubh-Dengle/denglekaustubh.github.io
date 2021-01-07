@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+body {
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0px;
+    padding: 0rem 0.1rem
+}
+
+/***colors***/
+
+:root {
+    --primary-color: #63A817;
+    --secondary-color: #D4D4D8;
+    --bg-color: #F4F7F1;
+}
+
+/***hr***/
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/***ccontainer***/
+
+.container {
+    padding: 1rem 0rem;
+}
+
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+}
+
+/***links***/
+
+.link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+
+}
+
+.link-primary:hover {
+    opacity: 0.7;
+}
+
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 1rem;
+}
+
+.link-secondary:hover {
+    opacity: 0.7;
+}
+
+/***lists***/
+
+.list {
+    list-style: none;
+    /* padding: 0rem 0.5rem; */
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/***navigation***/
+
+.navigation {
+    background-color: #63A817;
+    color: white;
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation .navigation-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation .nav-links {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-links:hover {
+    opacity: 0.7;
+}
+
+.navigation .nav-tabs {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/***header***/
+
+.header {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.header .header-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.header .header-text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/***section***/
+
+.section {
+    padding: 1rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.off-white-bg {
+    background-color: var(--bg-color);
+}
+
+/***footer***/
+
+.footer {
+    background-color: #63A817;
+    color: white;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/***social icons***/
+
+.fa {
+
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    font-size: 1rem
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.fa-twitter {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+.fa-instagram {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+.fa-github {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+.fa-linkedin {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
